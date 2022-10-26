@@ -23,17 +23,20 @@ public class Program {
 
 		switch (opcao) {
 
-		case 1: // cadastrar cliente
+		case 1: 
 			clienteController.cadastrarCliente();
 			break;
 
-		case 2: // atualizar cliente
+		case 2: 
+			clienteController.atualizarCliente();
 			break;
 
-		case 3: // excluir cliente
+		case 3: 
+			clienteController.excluirCliente();
 			break;
 
-		case 4: // consultar todos os clientes
+		case 4: 
+			clienteController.consultarClientes();
 			break;
 
 		default:
